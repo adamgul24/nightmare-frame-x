@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-04-04T21:00:00Z",
+    "threat": "SQL Injection",
+    "severity": "High",
+    "origin_ip": "172.20.10.5",
+    "target_port": 3306,
+    "description": "SQL injection attempt on login form",
+    "location": "New York, USA"
+  },
+  {
+    "timestamp": "2025-04-04T21:01:00Z",
+    "threat": "Port Scan",
+    "severity": "Medium",
+    "origin_ip": "192.168.0.12",
+    "target_port": 22,
+    "description": "Sequential port scan activity detected",
+    "location": "Berlin, Germany"
+  },
+  {
+    "timestamp": "2025-04-04T21:02:00Z",
+    "threat": "Brute Force",
+    "severity": "Critical",
+    "origin_ip": "10.10.10.4",
+    "target_port": 443,
+    "description": "Multiple failed login attempts",
+    "location": "Tokyo, Japan"
+  }
+]
